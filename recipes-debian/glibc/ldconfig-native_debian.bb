@@ -1,4 +1,4 @@
-require recipes-core/eglibc/ldconfig-native_2.12.1.bb
+require recipes-core/glibc/ldconfig-native_2.12.1.bb
 
 inherit debian-package
 DEBIAN_SECTION = "libs"
